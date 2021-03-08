@@ -1,0 +1,34 @@
+.back_button{
+    width:25%;
+    font-size:20px;
+    letter-spacing: 4px;
+    text-shadow:2px 2px 2px black;
+}
+
+.status{
+    width:35%;
+    font-size:23px;
+    letter-spacing: 4px;
+    text-shadow:2px 2px 2px black;
+}
+
+.number_of_obj{
+    white-space: pre-line;
+    font-size:20px;
+    letter-spacing: 4px;
+    text-shadow:2px 2px 2px black;
+}
+
+canvas{
+    box-shadow:18px 18px 18px rgb(255, 117, 117);
+    border-radius:20px;
+    margin-top:160px;
+    animation-name: canvas_shadow;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+}
+
+@keyframes canvas_shadow{
+    from{box-shadow:18px 18px 18px rgb(255, 117, 117);};
+    to{box-shadow:18px 18px 18px rgb(255, 179, 117);}
+}

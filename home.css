@@ -1,0 +1,80 @@
+.heading{
+    width:100%;
+    padding-top:23px;
+    padding-bottom:23px;
+    margin:0;
+    font-size:23px;
+    box-shadow:10px 10px 10px grey;
+    font-variant:small-caps;
+}
+
+.one{
+    color:red;
+    animation-name:one;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    animation-delay:2s;
+}
+
+.two{
+    color:green;
+}
+
+.three{
+    color:blue;
+    animation-name:three;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+        animation-delay:2s;
+}
+
+@keyframes one{
+    from{color:red;}
+    to{color:blue;font-size:30px;}
+}
+
+@keyframes three{
+    from{color:blue;}
+    to{color:red;font-size:30px;}
+}
+
+.align_images{
+    padding:15px;
+    border-radius:10px;
+    box-shadow:5px 5px 5px black;
+    animation-name:change_background;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    background-color: antiquewhite;
+    margin-top:35px;
+    width:80%;
+}
+
+@keyframes change_background{
+    from{box-shadow:5px 5px 5px red;}
+    to{box-shadow:5px 5px 5px yellow;}
+}
+
+li{
+    font-size:20px;
+    margin-left:20px;
+}
+
+body{
+    background-size:cover;
+    
+}
+
+.object_names{
+    color:BLue;
+    text-shadow:5px 5px 5px skyblue;
+}
+.align_images:hover{
+    cursor:pointer;
+        background-color: #f7dcb7;
+}
+
+.align_images h3{
+    font-size:30;
+    margin-top: -20;
+}
